@@ -6,10 +6,12 @@ img{
 }
 h1{
     position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,-50%);
     font-family: "Mochiy Pop One", sans-serif;
     font-size:60px;
     color: rgb(255, 255, 255);
-    margin: 30px 650px;
   }
 
 body{

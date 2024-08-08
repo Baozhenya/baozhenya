@@ -21,7 +21,7 @@
     <main>
         <section class="register">
             <h2>Register</h2>
-            <form class="register-form">
+            <form class="register-form" method="post" action="#">
                 <div class="control-group">
                     <label class="register-field-icon" for="login-name">Name</label>
                     <input type="text" class="login-field" value="" placeholder="username" id="login-name">
@@ -32,7 +32,7 @@
                 </div>
                 <div class="control-group">
                     <label class="register-field-icon" for="login-pass">Password</label>
-                    <input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+                    <input name="registerBTN" type="password" class="login-field" value="" placeholder="password" id="login-pass">
                 </div>
                 <div class="control-group control-position">
                     <button class="btn">Register</button>
