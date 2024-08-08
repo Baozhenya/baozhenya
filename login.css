@@ -1,0 +1,92 @@
+img{
+    width: calc(100%);
+    height: 200px;
+    object-fit: cover;
+    margin: 0px 0px ;
+}
+
+  h1{
+    position: absolute;
+    font-family: "Mochiy Pop One", sans-serif;
+    font-size:60px;
+    color: rgb(255, 255, 255);
+    margin: 30px 650px;
+  }
+
+body{
+    background-color:powderblue
+}
+.form-contents{
+    /* 幅の設定 */
+    width: 600px;
+    /* 罫線を引く */
+    border: 1px solid black;
+    /* 中央に置く */
+    margin: 10px auto;
+    background-color: white;
+}
+
+.login-form{
+    /* 幅の設定 */
+    width: 300px;
+    /* 中央に置く */
+    margin: 0 auto;
+}
+
+h2{
+    /*Loginという文字を真ん中に持ってくる*/
+    text-align: center;
+}
+
+.control-group{
+    /*下に余白を入れて要素を同士を離す*/
+    margin-bottom: 15px;
+}
+
+input{
+    background-color: rgb(231, 231, 231);
+
+}
+
+.login-field-icon{
+    /* block要素はwidthを指定することができない */
+    display: inline-block;
+    width: 85px;
+}
+.control-position{
+    /*ボタンとリンクを真ん中に持ってくる*/
+    text-align: center;
+}
+
+.btn{
+    width: 150px;
+    padding: 5px 0;
+    background-color:rgb(78, 147, 156);
+    color: white;
+    margin-top: 10px;
+    border: 2px solid transparent;
+}
+
+.login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+#links{
+    justify-content: center;
+    font-family: Meiryo;
+    display: flex;
+    list-style: none;
+    border-width: 300px;
+    gap: 0 50px;
+}
+
+#copyright{
+    font-family: sans-serif;
+}
